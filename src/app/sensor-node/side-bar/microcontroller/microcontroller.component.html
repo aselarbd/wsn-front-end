@@ -1,0 +1,17 @@
+<div class="ui blue button button_size"
+    [attr.data-tooltip]="microcontroller.microcontrollerDescription"
+    data-position="right center"
+     [id] ="microcontroller.microcontrollerId"
+     draggable="true"
+     (dragstart)="dragM($event)"
+     (drag)="dragging($event)"
+>
+{{microcontroller.microcontrollerDisplayName}}
+</div>
+
+
+<!--[attr.data-tooltip]="microcontroller.microcontrollerDescription"-->
+<!--data-position="right center"-->
+
+<!--[attr.data-content]="microcontroller.microcontrollerDescription"-->
+<!--data-variation="wide"-->

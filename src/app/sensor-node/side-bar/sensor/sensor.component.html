@@ -1,0 +1,18 @@
+<div class="ui icon green button button_size"
+[attr.data-tooltip]="sensor.sensorDescription"
+data-position="right center"
+     [id] ="sensor.sensorId"
+     draggable="true"
+     (dragstart)="dragM($event)"
+     (drag)="dragging($event)"
+>
+  {{sensor.sensorDisplayName}}
+</div>
+
+
+
+<!--[attr.data-content]="sensor.sensorDescription"-->
+<!--data-variation="wide"-->
+
+<!--[attr.data-tooltip]="sensor.sensorDescription"-->
+<!--data-position="right center"-->
